@@ -2,6 +2,8 @@ from flask import Flask,render_template,request
 
 import pickle
 import numpy as np
+
+pip install pandas==1.5.3
 import pandas as pd
 
 popular_df = pd.read_pickle(open('popular.pkl','rb'))
