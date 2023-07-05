@@ -4,7 +4,6 @@ import pickle
 import numpy as np
 
 
-
 popular_df = pickle.load(open('popular.pkl','rb'))
 pt = pickle.load(open('pt.pkl','rb'))
 books = pickle.load(open('books.pkl','rb'))
